@@ -19,10 +19,10 @@ class Projects extends Component {
         <CardBody class="card-body">
           <CardTitle class="card-title">Personal Project</CardTitle>
           <CardText class="card-text">
-            This is my Personal Project that i completed in 5 weeks at devmtn
-            from learning how to code
+            This is my Personal Project i learned how to code 5 weeks prior and
+            i completed in 2 weeks
           </CardText>
-          <Button color="danger" href="http://167.99.98.238/">
+          <Button color="primary" href="http://167.99.98.238/">
             Go To Live Site
           </Button>
           <CardText class="card-text" />

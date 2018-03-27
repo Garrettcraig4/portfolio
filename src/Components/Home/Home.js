@@ -1,11 +1,16 @@
 import React from "react";
 import { Jumbotron, Button } from "reactstrap";
+import "./Home.css";
+import Me from "../../assets/_DSC0409.jpg";
 
 const Home = props => {
   return (
     <div>
       <Jumbotron>
-        <h1 className="display-3">I am Full-Stack!</h1>
+        <h1 id="myname" className="display-3">
+          Garrett Craig
+        </h1>
+        <h1 className="display-3">Full-Stack Web Developer!</h1>
         <p className="lead">
           Hard work and Determination will always lead to success
         </p>
@@ -24,6 +29,8 @@ const Home = props => {
           </Button>
         </p>
       </Jumbotron>
+
+      <img id="me" src={Me} />
     </div>
   );
 };
