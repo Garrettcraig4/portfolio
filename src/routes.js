@@ -8,7 +8,7 @@ export default (
   <Switch>
     <Route component={Home} exact path="/" />
     <Route component={Contact} path="/Contact" />
-    <Route component={About} path="/About" /> 
-    <Route component={Projects} path="/Projects"
+    <Route component={About} path="/About" />
+    <Route component={Projects} path="/Projects" />
   </Switch>
 );
