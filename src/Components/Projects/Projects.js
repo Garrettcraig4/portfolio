@@ -26,6 +26,10 @@ class Projects extends Component {
             Go To Live Site
           </Button>
           <CardText class="card-text" />
+          <ul>
+            <li>Fully Mobile responsive</li>
+            <li>Full Scale </li>
+          </ul>
         </CardBody>
         <CardImg
           class="card-img-bottom"
