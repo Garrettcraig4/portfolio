@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from "reactstrap";
 
 class About extends Component {
   render() {
@@ -6,6 +7,18 @@ class About extends Component {
       <div className="About">
         <h1 className="display-3">About</h1>
 
+        <h3>Education</h3>
+        <p> DevMountain immersive web development bootcamp </p>
+        <p>
+          DevMountain is a 13 week bootcamp where the teach all necessary skills
+          and practices required to start a career as a web developer{" "}
+        </p>
+        <Button
+          color="danger"
+          href="https://devmountain.com/web-bootcamp-immersive"
+        >
+          DevMountain
+        </Button>
         <h3>My Experience with tech </h3>
         <p>
           when i was 3 my dad came home from work and built me my first computer

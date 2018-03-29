@@ -31,7 +31,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div class="header">
         <Navbar color="danger" light expand="md">
           <NavbarBrand href="/">Garrett Craig </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

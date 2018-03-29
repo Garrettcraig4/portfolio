@@ -39,6 +39,13 @@ class Projects extends Component {
             <Button color="primary" href="http://167.99.98.238/">
               Go To Live Site
             </Button>
+            <Button
+              color="primary"
+              id="codebtn"
+              href="https://github.com/Garrettcraig4/Personal-Project-e-commerce"
+            >
+              View Code
+            </Button>
             <CardText class="card-text" />
             <ul>
               <li>Fully Mobile responsive</li>
