@@ -9,10 +9,20 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button
+  Button,
+  Collapse
 } from "reactstrap";
 
 class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state = { collapse: false };
+  }
+  toggle() {
+    this.setState({ collapse: !this.state.collapse });
+  }
+
   render() {
     return (
       <div>
@@ -34,6 +44,27 @@ class Projects extends Component {
               <li>Fully Mobile responsive</li>
               <li>Full Scale </li>
             </ul>
+            <div>
+              <Button
+                color="danger"
+                onClick={this.toggle}
+                style={{ marginBottom: "1rem" }}
+              >
+                Techs Used
+              </Button>
+              <Collapse isOpen={this.state.collapse}>
+                <Card>
+                  <CardBody>
+                    Built in react.js ,node.js, Redux for state management,
+                    auth0 for auth , sweetalerts for cleaner alert messages,
+                    axios for the server and front end to talk, massive for
+                    sever to talk to database, sql querys for server to interact
+                    with database , stripe api for checkout, nodemailer for
+                    sending a email conformation,
+                  </CardBody>
+                </Card>
+              </Collapse>
+            </div>
           </CardBody>
           <CardImg
             class="card-img-bottom"

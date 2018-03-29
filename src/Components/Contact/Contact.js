@@ -20,6 +20,9 @@ export default class Example extends React.Component {
           <ListGroupItem tag="a" href="https://github.com/Garrettcraig4" action>
             Github
           </ListGroupItem>
+          <ListGroupItem tag="a" href="" action>
+            Resume
+          </ListGroupItem>
         </ListGroup>
         <p />
       </div>
