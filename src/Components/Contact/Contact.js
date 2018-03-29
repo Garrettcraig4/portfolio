@@ -5,7 +5,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <h3>Contact me</h3>
+        <h1 className="display-3">Contact Me</h1>
         <ListGroup>
           <ListGroupItem tag="a" href="#" action>
             Email: Garrettcrg@gmail.com

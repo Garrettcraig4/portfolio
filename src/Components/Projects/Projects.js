@@ -15,29 +15,34 @@ import {
 class Projects extends Component {
   render() {
     return (
-      <Card class="card">
-        <CardBody class="card-body">
-          <CardTitle class="card-title">Personal Project</CardTitle>
-          <CardText class="card-text">
-            This is my Personal Project i learned how to code 5 weeks prior and
-            i completed in 2 weeks
-          </CardText>
-          <Button color="primary" href="http://167.99.98.238/">
-            Go To Live Site
-          </Button>
-          <CardText class="card-text" />
-          <ul>
-            <li>Fully Mobile responsive</li>
-            <li>Full Scale </li>
-          </ul>
-        </CardBody>
-        <CardImg
-          class="card-img-bottom"
-          id="perpic"
-          src={perpic}
-          alt="my personal project picture"
-        />
-      </Card>
+      <div>
+        <h1 className="display-3">Projects</h1>
+
+        <Card class="card">
+          <CardBody class="card-body">
+            <CardTitle class="card-title">Personal Project</CardTitle>
+            <CardText class="card-text">
+              This is my Personal Project i learned how to code 5 weeks prior
+              and i completed in 2 weeks. completely functional created in
+              react.js with a node.js server and sql calls to the database
+            </CardText>
+            <Button color="primary" href="http://167.99.98.238/">
+              Go To Live Site
+            </Button>
+            <CardText class="card-text" />
+            <ul>
+              <li>Fully Mobile responsive</li>
+              <li>Full Scale </li>
+            </ul>
+          </CardBody>
+          <CardImg
+            class="card-img-bottom"
+            id="perpic"
+            src={perpic}
+            alt="my personal project picture"
+          />
+        </Card>
+      </div>
     );
   }
 }
