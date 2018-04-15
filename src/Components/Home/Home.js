@@ -2,7 +2,7 @@ import React from "react";
 import { Jumbotron, Button } from "reactstrap";
 import "./Home.css";
 import Me from "../../assets/_DSC0409.jpg";
-
+import { Link } from "react-router-dom";
 const Home = props => {
   return (
     <div>
@@ -27,6 +27,11 @@ const Home = props => {
           >
             Linkedin
           </Button>
+          <Link to="/contact">
+            <Button className="contactbtn" color="primary">
+              Contact
+            </Button>
+          </Link>
         </p>
       </Jumbotron>
 
