@@ -31,7 +31,7 @@ class Projects extends Component {
         <Card class="card">
           <CardBody class="card-body">
             <CardTitle class="card-title">Personal Project</CardTitle>
-            <CardText class="card-text">
+            <CardText className="ptext" class="card-text">
               This is my Personal Project i learned how to code 5 weeks prior
               and i completed in 2 weeks. completely functional created in
               react.js with a node.js server and sql calls to the database
@@ -61,13 +61,13 @@ class Projects extends Component {
               </Button>
               <Collapse isOpen={this.state.collapse}>
                 <Card>
-                  <CardBody>
+                  <CardBody className="ptext">
                     Built in react.js ,node.js, Redux for state management,
-                    auth0 for auth , sweetalerts for cleaner alert messages,
+                    auth0 for auth , sweatalerts for cleaner alert messages,
                     axios for the server and front end to talk, massive for
-                    sever to talk to database, sql querys for server to interact
-                    with database , stripe api for checkout, nodemailer for
-                    sending a email conformation,
+                    sever to talk to database, sql queries for server to
+                    interact with database , stripe api for checkout, nodemailer
+                    for sending a email conformation,
                   </CardBody>
                 </Card>
               </Collapse>
