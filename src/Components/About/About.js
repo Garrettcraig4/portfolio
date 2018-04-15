@@ -26,12 +26,12 @@ class About extends Component {
           and thats when my experience with tech started to grow.
         </p>
         <p>
-          when I was a kid I remember using the command line on windows xp to
+          when I was young I remember using the command line on windows xp to
           send a message from my computer up stairs to the computer down stairs{" "}
           <br />
           I also owned several apple products (ipodtouches, ipads, iphone's and
           more) and used to (jailbreak) them where i installed 3rd party
-          packages and application on to the devices through the root and
+          packages and applications on to the devices through the root and
           package manager or through ssh
         </p>
         <p>
@@ -42,10 +42,10 @@ class About extends Component {
           learning experience
         </p>
         <p>
-          and fast forward to current time I am a full-stack web developer I
-          have learned technologies like javascript, css, html, node.js,
-          react.js, sql and github.I hope that my learning doesn't stop and I
-          keep learning new technologies
+          fast forward to current time I am a full-stack web developer I have
+          learned technologies like javascript, css, html, node.js, react.js,
+          sql and github.I hope that my learning doesn't stop and I keep
+          learning new technologies
         </p>
       </div>
     );
