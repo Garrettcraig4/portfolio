@@ -35,7 +35,7 @@ const Home = props => {
         </p>
       </Jumbotron>
 
-      <img id="me" src={Me} />
+      <img id="me" src={Me} alt="me" />
     </div>
   );
 };

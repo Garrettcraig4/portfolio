@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import perpic from "../../assets/Screen Shot 2018-03-27 at 4.37.36 PM.png";
 import "./Projects.css";
-
 import {
   Card,
   CardImg,
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button,
   Collapse
 } from "reactstrap";
@@ -88,7 +86,6 @@ class Projects extends Component {
     );
   }
 }
-3;
 
 export default Projects;
 

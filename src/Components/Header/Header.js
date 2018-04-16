@@ -8,11 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  Badge
+  UncontrolledDropdown
 } from "reactstrap";
 
 export default class Example extends React.Component {
@@ -31,7 +27,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div class="header">
+      <div className="header">
         <Navbar color="danger" light expand="md">
           <NavbarBrand href="/">Garrett Craig </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
