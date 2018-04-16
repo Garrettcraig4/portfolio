@@ -32,9 +32,9 @@ class Projects extends Component {
           <CardBody class="card-body">
             <CardTitle class="card-title">Personal Project</CardTitle>
             <CardText className="ptext" class="card-text">
-              This is my Personal Project i learned how to code 5 weeks prior
-              and i completed in 2 weeks. completely functional created in
-              react.js with a node.js server and sql calls to the database
+              This is my Personal Project I learned how to code 5 weeks prior
+              and I completed in 2 weeks. completely functional created in
+              React.js with a Node.js server and SQL calls to the database
             </CardText>
             <Button color="primary" href="http://167.99.98.238/">
               Go To Live Site
@@ -46,11 +46,13 @@ class Projects extends Component {
             >
               View Code
             </Button>
-            <CardText class="card-text" />
-            <ul>
-              <li>Fully Mobile responsive</li>
-              <li>Full Scale </li>
-            </ul>
+            <div className="list">
+              <CardText class="card-text" />
+              <ul>
+                <li>Fully Mobile responsive</li>
+                <li>Full Scale </li>
+              </ul>
+            </div>
             <div>
               <Button
                 color="danger"
@@ -62,11 +64,11 @@ class Projects extends Component {
               <Collapse isOpen={this.state.collapse}>
                 <Card>
                   <CardBody className="ptext">
-                    Built in react.js ,node.js, Redux for state management,
-                    auth0 for auth , sweatalerts for cleaner alert messages,
-                    axios for the server and front end to talk, massive for
-                    sever to talk to database, sql queries for server to
-                    interact with database , stripe api for checkout, nodemailer
+                    Built in React.js ,Node.js, Redux for state management,
+                    auth0 for auth , Sweatalerts for cleaner alert messages,
+                    Axios for the server and front end to talk, Massive for
+                    sever to talk to database, SQL queries for server to
+                    interact with database , Stripe api for checkout, Nodemailer
                     for sending a email conformation,
                   </CardBody>
                 </Card>
@@ -77,7 +79,7 @@ class Projects extends Component {
             class="card-img-bottom"
             id="perpic"
             src={perpic}
-            alt="my personal project picture"
+            alt="My personal project picture"
           />
         </Card>
       </div>

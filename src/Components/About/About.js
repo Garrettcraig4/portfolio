@@ -36,7 +36,7 @@ class About extends Component {
             package manager or through ssh
           </p>
           <p>
-            when I was a teen i dual booted my pc with linux and windows and
+            when I was a teen I dual booted my pc with linux and windows and
             also I made my pc a (Hackintosh) where I installed the mac operating
             system on windows hardware then when I was 16 I built my own pc I
             picked out all the components and put it all together that was an
