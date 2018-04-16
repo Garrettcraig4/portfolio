@@ -3,6 +3,9 @@
 .expdiv {
   width: 50%;
   margin-left: 25%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5.4px;
 }
 .devmtn {
   margin-left: 25%;

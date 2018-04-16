@@ -8,8 +8,15 @@
   margin-left: 15px;
 }
 .ptext {
-  margin-left: 25%;
   width: 50%;
 }
-.list {
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.btntxt {
 }

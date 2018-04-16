@@ -36,16 +36,18 @@ class Projects extends Component {
               and I completed in 2 weeks. completely functional created in
               React.js with a Node.js server and SQL calls to the database
             </CardText>
-            <Button color="primary" href="http://167.99.98.238/">
-              Go To Live Site
-            </Button>
-            <Button
-              color="primary"
-              id="codebtn"
-              href="https://github.com/Garrettcraig4/Personal-Project-e-commerce"
-            >
-              View Code
-            </Button>
+            <div className="btntxt">
+              <Button color="primary" href="http://167.99.98.238/">
+                Go To Live Site
+              </Button>
+              <Button
+                color="primary"
+                id="codebtn"
+                href="https://github.com/Garrettcraig4/Personal-Project-e-commerce"
+              >
+                View Code
+              </Button>
+            </div>
             <div className="list">
               <CardText class="card-text" />
               <ul>
@@ -69,7 +71,7 @@ class Projects extends Component {
                     Axios for the server and front end to talk, Massive for
                     sever to talk to database, SQL queries for server to
                     interact with database , Stripe api for checkout, Nodemailer
-                    for sending a email conformation,
+                    for sending a email conformation
                   </CardBody>
                 </Card>
               </Collapse>

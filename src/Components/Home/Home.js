@@ -12,7 +12,7 @@ const Home = props => {
         </h1>
         <h1 className="display-3">Full-Stack Web Developer!</h1>
         <p className="lead">
-          Hard work and Determination will always lead to success
+          Hard work and Determination will always lead to success.
         </p>
         <hr className="my-2" />
         <p>

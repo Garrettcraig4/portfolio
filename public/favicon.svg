@@ -1,0 +1,13 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m40,8l-32,0c-2.21,0 -3.98,1.79 -3.98,4l-0.02,24c0,2.21 1.79,4 4,4l32,0c2.21,0 4,-1.79 4,-4l0,-24c0,-2.21 -1.79,-4 -4,-4zm-10,28l-22,0l0,-8l22,0l0,8zm0,-10l-22,0l0,-8l22,0l0,8zm10,10l-8,0l0,-18l8,0l0,18z"/>
+  <path id="svg_2" fill="none" d="m0,0l48,0l0,48l-48,0l0,-48z"/>
+  <text stroke="#000" transform="matrix(0.25806661268539577,0,0,0.21098598044866887,20.96736860364262,10.842416271264593) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="18.01268" x="-14.925931" stroke-width="0" fill="#ff0000">GCD</text>
+ </g>
+</svg>
