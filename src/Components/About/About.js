@@ -20,6 +20,14 @@ class About extends Component {
         >
           DevMountain
         </Button>
+        <h3>Who Am I</h3>
+        <p className="expdiv">
+          I have a passion for all things technology. I am primarily self-driven
+          a hard worker always willing to take on a challenge and grow my
+          skills. I think that if you are willing to push to the next level you
+          can achieve your goals. I am very dedicated to anything I do I put
+          lots of time into things to get the best out of them.
+        </p>
         <h3>My Experience with tech </h3>
         <div className="expdiv">
           <p>
@@ -42,6 +50,11 @@ class About extends Component {
             technologies
           </p>
         </div>
+        <h3>My Goal</h3>
+        <p className="goaldiv">
+          To always strive for the best by implementing new technologies and
+          keep learning anything that is more efficient and productive.
+        </p>
       </div>
     );
   }

@@ -65,7 +65,7 @@ class Projects extends Component {
               </Button>
               <Collapse isOpen={this.state.collapse}>
                 <Card>
-                  <CardBody className="ptext">
+                  <CardBody>
                     Built in React.js ,Node.js, Redux for state management,
                     auth0 for auth , Sweatalerts for cleaner alert messages,
                     Axios for the server and front end to talk, Massive for

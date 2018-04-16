@@ -6,8 +6,17 @@
   border-style: solid;
   border-width: 0.5px;
   border-radius: 5.4px;
+  border-color: #dc3545;
 }
 .devmtn {
   margin-left: 25%;
   width: 50%;
+}
+.goaldiv {
+  width: 50%;
+  margin-left: 25%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5.4px;
+  border-color: #dc3545;
 }
