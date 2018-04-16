@@ -22,7 +22,7 @@ const Home = props => {
         </p>
         <p className="lead">
           <Button
-            href="https://www.linkedin.com/in/garrett-craig-94223a160/"
+            href="https://www.linkedin.com/in/garrett--craig/"
             color="primary"
           >
             Linkedin

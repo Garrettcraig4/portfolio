@@ -6,20 +6,6 @@ class About extends Component {
     return (
       <div className="About">
         <h1 className="display-3">About</h1>
-
-        <h3>Education</h3>
-        <p> DevMountain immersive web development bootcamp </p>
-        <p>2018</p>
-        <p className="devmtn">
-          DevMountain is a 13 week bootcamp where the teach all necessary skills
-          and practices required to start a career as a web developer{" "}
-        </p>
-        <Button
-          color="danger"
-          href="https://devmountain.com/web-bootcamp-immersive"
-        >
-          DevMountain
-        </Button>
         <h3>Who Am I</h3>
         <p className="expdiv">
           I have a passion for all things technology. I am primarily self-driven
@@ -49,6 +35,23 @@ class About extends Component {
             github.I hope that my learning doesn't stop and I keep learning new
             technologies
           </p>
+        </div>
+        <h3>Education</h3>
+        <div className="expdiv">
+          <p> DevMountain immersive web development bootcamp </p>
+          <p>2018</p>
+          <p>
+            DevMountain is a 13 week bootcamp where the teach all necessary
+            skills and practices required to start a career as a web developer
+          </p>
+
+          <Button
+            color="danger"
+            href="https://devmountain.com/web-bootcamp-immersive"
+            id="devmtnbtn"
+          >
+            DevMountain
+          </Button>
         </div>
         <h3>My Goal</h3>
         <p className="goaldiv">

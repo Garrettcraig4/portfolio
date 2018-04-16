@@ -12,7 +12,7 @@ export default class Example extends React.Component {
           </ListGroupItem>
           <ListGroupItem
             tag="a"
-            href="https://www.linkedin.com/in/garrett-craig-94223a160/"
+            href="https://www.linkedin.com/in/garrett--craig/"
             action
           >
             Linkedin
