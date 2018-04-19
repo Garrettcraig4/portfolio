@@ -30,9 +30,10 @@ class Projects extends Component {
           <CardBody class="card-body">
             <CardTitle class="card-title">Personal Project</CardTitle>
             <CardText className="ptext" class="card-text">
-              This is my Personal Project I learned how to code 5 weeks prior
-              and I completed in 2 weeks. completely functional created in
-              React.js with a Node.js server and SQL calls to the database
+              This is my Personal Project. I learned how to code five weeks
+              prior and I completed this project in two weeks, completely
+              functional and created in React.js with a Node.js server and SQL
+              calls to the database.
             </CardText>
             <div className="btntxt">
               <Button color="primary" href="http://167.99.98.238/">

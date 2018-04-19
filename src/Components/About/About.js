@@ -8,41 +8,40 @@ class About extends Component {
         <h1 className="display-3">About</h1>
         <h3>Who Am I</h3>
         <p className="expdiv">
-          I have a passion for all things technology. I am primarily self-driven
-          a hard worker always willing to take on a challenge and grow my
-          skills. I think that if you are willing to push to the next level you
-          can achieve your goals. I am very dedicated to anything I do I put
-          lots of time into things to get the best out of them.
+          I have a passion for all things technology. I am primarily a
+          self-driven, hard worker always willing to take on a challenge and
+          grow my skills. I think that if you are willing to push to the next
+          level, you can achieve your goals. I am very dedicated to anything I
+          do and I put allot of time into things to get the best out of them.
         </p>
         <h3>My Experience with tech </h3>
         <div className="expdiv">
           <p>
-            When I was 3 my dad came home from work and built me my first
-            computer and thats when my experience with tech started to grow.
-            when I was young I remember using the command line on windows xp to
-            send a message from my computer up stairs to the computer down
-            stairs <br />
-            I also owned several apple products (ipodtouchs, ipad's, iphone's
-            and more) and used to (jailbreak) them where i installed 3rd party
-            packages and applications on to the devices through the root and
-            package manager or through ssh when I was a teen I dual booted my pc
-            with linux and windows and also I made my pc a (Hackintosh) where I
-            installed the mac operating system on windows hardware then when I
-            was 16 I built my own pc I picked out all the components and put it
-            all together that was an amazing learning experience fast forward to
-            current time I am a full-stack web developer I have learned
+            When I was three, my dad came home from work and built me my first
+            computer. That is when my experience with tech started to grow. When
+            I was young, I remember using the command line on windows xp to send
+            a message from my computer up-stairs to the computer down-stairs. I
+            also owned several Apple products (iPodtouches, iPad's, iPhone's and
+            more). I used to (jailbreak) them where I would install 3rd party
+            packages and applications on the devices, through the root and
+            package manager or through ssh. When I was a teen, I dual-booted my
+            PC with Linux and Windows. I also made my PC a (Hackintosh) where I
+            installed the Mac operating system on Windows hardware. When I was
+            16, I built my own PC. I picked out all the components and put it
+            all together. That was an amazing learning experience. Fast forward
+            to current time. I am a full-stack web developer. I have learned
             technologies like javascript, css, html, node.js, react.js, sql and
-            github.I hope that my learning doesn't stop and I keep learning new
-            technologies
+            github. I hope that my learning doesn't stop while I keep learning
+            new technologies.
           </p>
         </div>
         <h3>Education</h3>
         <div className="expdiv">
-          <p> DevMountain immersive web development bootcamp </p>
+          <p>DevMountain immersive web development bootcamp</p>
           <p>2018</p>
           <p>
-            DevMountain is a 13 week bootcamp where the teach all necessary
-            skills and practices required to start a career as a web developer
+            DevMountain is a 13 week bootcamp where they teach all the necessary
+            skills and practices required to start a career as a web developer.
           </p>
 
           <Button
