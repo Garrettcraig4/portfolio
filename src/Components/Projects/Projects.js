@@ -87,21 +87,23 @@ class Projects extends Component {
 
         <Card class="card">
           <CardBody class="card-body">
-            <CardTitle class="card-title">Personal Project</CardTitle>
+            <CardTitle class="card-title">Group Project</CardTitle>
             <CardText className="ptext" class="card-text">
-              This is my Personal Project. I learned how to code five weeks
-              prior and I completed this project in two weeks, completely
-              functional and created in React.js with a Node.js server and SQL
-              calls to the database.
+              This is my Group Project. This Combines everything I have learned
+              at DevMtn. I learned how to work with github in a group and
+              working together as a development group.
             </CardText>
             <div className="btntxt">
-              <Button color="primary" href="http://167.99.98.238/">
+              <Button
+                color="primary"
+                href="https://trippie.devmtn-projects.com/#/"
+              >
                 Go To Live Site
               </Button>
               <Button
                 color="primary"
                 id="codebtn"
-                href="https://github.com/Garrettcraig4/Personal-Project-e-commerce"
+                href="https://github.com/Group-Effort/Group-Effort"
               >
                 View Code
               </Button>
@@ -111,6 +113,7 @@ class Projects extends Component {
               <ul>
                 <li>Fully Mobile responsive</li>
                 <li>Full Scale </li>
+                <li>API Heavy</li>
               </ul>
             </div>
             <div>
@@ -124,12 +127,11 @@ class Projects extends Component {
               <Collapse isOpen={this.state.collapse}>
                 <Card>
                   <CardBody>
-                    Built in React.js ,Node.js, Redux for state management,
-                    auth0 for auth , Sweatalerts for cleaner alert messages,
-                    Axios for the server and front end to talk, Massive for
-                    sever to talk to database, SQL queries for server to
-                    interact with database , Stripe api for checkout, Nodemailer
-                    for sending a email conformation
+                    Built in React.js ,Node.js, Uses google maps and places api,
+                    Redux for state management, auth0 for auth , Sweatalerts for
+                    cleaner alert messages, Axios for the server and front end
+                    to talk, Massive for sever to talk to database, SQL queries
+                    for server to interact with database
                   </CardBody>
                 </Card>
               </Collapse>
